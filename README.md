@@ -23,6 +23,10 @@
 
 ## TODO
 
-- [ ] 可设置代理/保存cookies的HTTP Client
+- [ ] ~~可设置代理/保存cookies的HTTP Client~~(还是用既有的爬虫框架好了)
 - [ ] 可限制并发的队列下载器
 - [ ] 配置文件解析
+
+## Requirements
+
+- `gocolly/colly`: github.com/gocolly/colly
