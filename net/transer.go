@@ -3,7 +3,7 @@ package net
 import "net/http"
 
 type Transer struct {
-	transporter *http.Transport
+	transporter *http.Client
 	cookies     map[string]string
 }
 
