@@ -1,0 +1,19 @@
+log:
+  - level: info
+  - path: ./gopsp.log
+
+user:
+  - name: example
+  - password: xxxxxxxxxxxxx
+
+downloader:
+  - ua: "Mozilla/5.0 (Windows NT 10.0; WOW64) Chrome/62.0.3202.9"
+  - threads: 5
+  - sleeptime: 1500
+
+download_path:
+  - pixiv:
+    - base: /home/pixiv/
+    - daily: daily/
+    - week: week/
+    - member: member/

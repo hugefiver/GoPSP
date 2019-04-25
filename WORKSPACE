@@ -1,1 +1,1 @@
-workspace(name = "gopsp")
+workspace(name = "GoPSP")
