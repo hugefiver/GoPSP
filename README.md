@@ -1,6 +1,6 @@
 # GoPSP of Pixiv Spider Platform
 
-这是将一个用于`Pixiv`的爬虫系统。
+这是将一个用于`Pixiv`的可扩展到其他规则的爬虫系统。
 
 通过事件驱动爬虫线程运行。
 
