@@ -1,6 +1,6 @@
 # GoPSP of Pixiv Spider Platform
 
-这是将一个用于`Pixiv`的爬虫系统。
+这是将一个用于`Pixiv`的可扩展到其他规则的爬虫系统。
 
 通过事件驱动爬虫线程运行。
 
@@ -23,10 +23,11 @@
 
 ## TODO
 
-- [ ] ~~可设置代理/保存cookies的HTTP Client~~(还是用既有的爬虫框架好了)
+- [ ] 可设置代理/保存cookies的HTTP Client
 - [ ] 可限制并发的队列下载器
 - [ ] 配置文件解析
 
 ## Requirements
 
-- `gocolly/colly`: github.com/gocolly/colly
+- `gopkg.in/yaml.v3`
+- `golang.org/x/net/proxy`
